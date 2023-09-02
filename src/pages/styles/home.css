@@ -1,0 +1,226 @@
+.home {
+  min-height: 100vh;
+  height: max-content;
+  top: 0;
+  bottom: 0;
+  position: relative;
+
+  width: 100%;
+}
+.bg {
+  background: url('../../assets/Ababu.png') center left no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.b {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: radial-gradient(
+    transparent,
+    rgba(4, 45, 31, 0.208),
+    rgba(0, 0, 0, 0.798)
+  );
+}
+.vector {
+  position: absolute;
+  top: 17%;
+  bottom: 0%;
+  left: 0;
+
+  height: 80%;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .home {
+    align-items: center;
+  }
+
+  .home-container {
+    height: 70vh;
+  }
+}
+.custom {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  top: -5%;
+  bottom: 10%;
+
+  right: 0;
+}
+.v2 {
+  position: absolute;
+  height: 70%;
+  transform: rotateX(-30deg);
+  display: flex;
+  transform-origin: left;
+
+  top: -10%;
+}
+.v3 {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  transform: rotateY(-3deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.v4 {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  left: 40%;
+  top: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  width: 30%;
+  height: max-content;
+
+  position: absolute;
+  padding: 1rem 3rem 0 1rem;
+  margin-left: 10px;
+  top: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: stretch;
+  z-index: 4;
+}
+.details h4 {
+  font-size: 20px;
+  font-family: gennorm;
+  margin-bottom: 1rem;
+  letter-spacing: 0.8px;
+  color: var(--lightBlack, #121212);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.details h1 {
+  color: var(--black, #313131);
+  font-family: genbold;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+}
+.details h1 span {
+  color: var(--error);
+  font-family: genbold;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+}
+.details p {
+  align-self: stretch;
+  color: var(--lightBlack, #515151);
+  font-family: gennorm;
+  font-size: 16px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.icons {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.icons img {
+  margin-right: 0.5rem;
+  width: 50%;
+}
+.main {
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+
+  margin-bottom: 4em;
+  position: absolute;
+
+  top: 100%;
+}
+.motives {
+  display: flex;
+  gap: 30px;
+  width: 90%;
+  justify-content: center;
+}
+
+.article {
+  border-radius: 8px;
+  border: 1px solid var(--fresh);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.342);
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  flex: 1 0 0;
+  font-family: gennorm;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article i {
+  font-size: 2rem;
+  border: 2px;
+}
+
+.article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.342);
+}
+
+.ste {
+  bottom: 0%;
+  position: absolute;
+
+  top: 150%;
+}
+
+.stories {
+  position: absolute;
+  bottom: 0;
+  top: 250%;
+}
+.training-card {
+  position: absolute;
+
+  top: 290%;
+}
+.icon-rows {
+  position: absolute;
+  top: 370%;
+}
+.below {
+  position: absolute;
+  bottom: 0;
+  top: 400%;
+}

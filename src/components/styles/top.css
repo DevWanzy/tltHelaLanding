@@ -1,0 +1,127 @@
+.vector {
+  position: absolute;
+  top: 17%;
+  bottom: 0%;
+  left: 0;
+
+  height: 80%;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .home {
+    align-items: center;
+  }
+
+  .home-container {
+    height: 70vh;
+  }
+}
+.custom {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  top: -5%;
+  bottom: 10%;
+
+  right: 0;
+}
+.v2 {
+  position: absolute;
+  height: 70%;
+  transform: rotateX(-30deg);
+  display: flex;
+  transform-origin: left;
+
+  top: -10%;
+}
+.v3 {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  left: 1%;
+
+  /* width: 1702.116px;
+  height: 997.766px; */
+  transform: rotateY(-3deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.v4 {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  left: 40%;
+  top: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  width: 30%;
+  height: max-content;
+
+  position: absolute;
+  padding: 1rem 3rem 0 1rem;
+  margin-left: 10px;
+  top: 25%;
+  left: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: stretch;
+  z-index: 4;
+}
+.details h4 {
+  font-size: 20px;
+  font-family: gennorm;
+  margin-bottom: 1rem;
+  letter-spacing: 0.8px;
+  color: var(--lightBlack, #121212);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.details h1 {
+  color: var(--black, #313131);
+  font-family: genbold;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+}
+.details h1 span {
+  color: var(--error);
+  font-family: genbold;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+}
+.details p {
+  align-self: stretch;
+  color: var(--lightBlack, #515151);
+  font-family: gennorm;
+  font-size: 16px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.icons {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.icons img {
+  margin-right: 0.5rem;
+  width: 50%;
+}
