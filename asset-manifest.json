@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/tltHelaLanding/static/css/main.c840ec87.css",
+    "main.js": "/tltHelaLanding/static/js/main.9587c5d0.js",
+    "static/media/Ababu.png": "/tltHelaLanding/static/media/Ababu.fbab221882f00dc5cdee.png",
+    "static/media/aj.png": "/tltHelaLanding/static/media/aj.f0d9e59be69e68813639.png",
+    "static/media/latest logo-06.png": "/tltHelaLanding/static/media/latest logo-06.55f9165067b3b4f63510.png",
+    "static/media/GeneralSans-Regular.woff": "/tltHelaLanding/static/media/GeneralSans-Regular.e4eab922aad4a9c4403e.woff",
+    "static/media/GeneralSans-Bold.woff": "/tltHelaLanding/static/media/GeneralSans-Bold.a5cb976e457e0380e96e.woff",
+    "static/media/GeneralSans-Extralight.woff": "/tltHelaLanding/static/media/GeneralSans-Extralight.b8f42aa5487acb390b47.woff",
+    "index.html": "/tltHelaLanding/index.html",
+    "main.c840ec87.css.map": "/tltHelaLanding/static/css/main.c840ec87.css.map",
+    "main.9587c5d0.js.map": "/tltHelaLanding/static/js/main.9587c5d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c840ec87.css",
+    "static/js/main.9587c5d0.js"
+  ]
+}
