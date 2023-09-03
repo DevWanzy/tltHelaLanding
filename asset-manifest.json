@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "/tltHelaLanding/static/css/main.c840ec87.css",
-    "main.js": "/tltHelaLanding/static/js/main.9587c5d0.js",
+    "main.css": "/tltHelaLanding/static/css/main.6d045e91.css",
+    "main.js": "/tltHelaLanding/static/js/main.6d8b69e0.js",
     "static/media/Ababu.png": "/tltHelaLanding/static/media/Ababu.fbab221882f00dc5cdee.png",
     "static/media/aj.png": "/tltHelaLanding/static/media/aj.f0d9e59be69e68813639.png",
-    "static/media/latest logo-06.png": "/tltHelaLanding/static/media/latest logo-06.55f9165067b3b4f63510.png",
+    "static/media/iPhone 14 Mockup, Clay 1.png": "/tltHelaLanding/static/media/iPhone 14 Mockup, Clay 1.6835897448ec642bfb77.png",
+    "static/media/ababuTeam.png": "/tltHelaLanding/static/media/ababuTeam.23b31ecc51b144bcb1d5.png",
+    "static/media/logo.png": "/tltHelaLanding/static/media/logo.f9ad14f21274983bdfe0.png",
+    "static/media/dunTeam.png": "/tltHelaLanding/static/media/dunTeam.91f4db3ef704c932e8f4.png",
+    "static/media/Frame 122.png": "/tltHelaLanding/static/media/Frame 122.541de1ad3b5603a75fbb.png",
+    "static/media/pexels-chythecreator-15177813 1.png": "/tltHelaLanding/static/media/pexels-chythecreator-15177813 1.fff2fbbc977a6db58eb2.png",
+    "static/media/channels4_profile 1.png": "/tltHelaLanding/static/media/channels4_profile 1.39de5384b89342e09345.png",
     "static/media/GeneralSans-Regular.woff": "/tltHelaLanding/static/media/GeneralSans-Regular.e4eab922aad4a9c4403e.woff",
     "static/media/GeneralSans-Bold.woff": "/tltHelaLanding/static/media/GeneralSans-Bold.a5cb976e457e0380e96e.woff",
     "static/media/GeneralSans-Extralight.woff": "/tltHelaLanding/static/media/GeneralSans-Extralight.b8f42aa5487acb390b47.woff",
+    "static/media/qcpuohmx7mxwu8bxj2wl 1.png": "/tltHelaLanding/static/media/qcpuohmx7mxwu8bxj2wl 1.4b9bec8f2292c8bf7820.png",
+    "static/media/pexels-thirdman-6109392 1.png": "/tltHelaLanding/static/media/pexels-thirdman-6109392 1.38b3ba67d179d66c2309.png",
+    "static/media/nys.jfif": "/tltHelaLanding/static/media/nys.1ae7eaa3799c64843fe2.jfif",
     "index.html": "/tltHelaLanding/index.html",
-    "main.c840ec87.css.map": "/tltHelaLanding/static/css/main.c840ec87.css.map",
-    "main.9587c5d0.js.map": "/tltHelaLanding/static/js/main.9587c5d0.js.map"
+    "main.6d045e91.css.map": "/tltHelaLanding/static/css/main.6d045e91.css.map",
+    "main.6d8b69e0.js.map": "/tltHelaLanding/static/js/main.6d8b69e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c840ec87.css",
-    "static/js/main.9587c5d0.js"
+    "static/css/main.6d045e91.css",
+    "static/js/main.6d8b69e0.js"
   ]
 }
