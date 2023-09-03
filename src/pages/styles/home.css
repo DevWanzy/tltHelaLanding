@@ -225,3 +225,15 @@
   bottom: 0;
   top: 400%;
 }
+.icon-rows {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.icon-rows h2 {
+  color: var(--error);
+  font-size: 24px;
+  font-family: genbold;
+}
