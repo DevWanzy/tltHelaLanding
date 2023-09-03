@@ -7,20 +7,20 @@ const checkors = [
     title: 'Upload Video',
     content: 'Guardian Video Uploads',
     arrow: <BiSolidDownArrow />,
-    bgColor: 'red', // Background color for title
+    bgColor: 'red',
   },
   {
     title: 'Filter All',
     content:
       'Video with potential talent are identified by coaches with the help of AI',
     arrow: <BiSolidUpArrow />,
-    bgColor: 'green', // Background color for title
+    bgColor: 'green',
   },
   {
     title: 'Review & Sorting',
     content: 'Coaches Review the videos in Pools and Score it',
     arrow: <BiSolidDownArrow />,
-    bgColor: 'orange', // Background color for title
+    bgColor: 'orange',
   },
   {
     title: 'Selection Algorithm',
