@@ -34,7 +34,7 @@
 
 .link {
   font-family: gennorm;
-  font-size: 15px;
+  font-size: 14px;
   color: var(--black);
   text-decoration: none;
 }
@@ -53,7 +53,7 @@
 .user .btn {
   border-radius: 100px;
   border: 0;
-  padding: 8px 16px;
+  padding: 0.3rem 1.5rem;
   font-family: gennorm;
   font-size: 16px;
 }
@@ -86,8 +86,9 @@
 
   .user {
     margin-top: 1rem;
-    flex-direction: column;
-    align-items: center;
+
+    align-items: flex-end;
+    margin-bottom: 1rem;
   }
 }
 

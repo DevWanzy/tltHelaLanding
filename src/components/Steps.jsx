@@ -20,7 +20,7 @@ const checkors = [
     title: 'Review & Sorting',
     content: 'Coaches Review the videos in Pools and Score it',
     arrow: <BiSolidDownArrow />,
-    bgColor: 'orange',
+    bgColor: 'orange', // Background color for title
   },
   {
     title: 'Selection Algorithm',
@@ -42,6 +42,7 @@ const checkerData = [
   { color: 'black' },
   { color: 'green' },
 ]
+// Updated Steps component
 const Steps = () => {
   return (
     <div className='steps'>

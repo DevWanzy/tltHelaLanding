@@ -6,6 +6,7 @@ import CustomSvg from './SVGs/CustomSvg'
 import './styles/top.css'
 import appst from '../images/appstore.png'
 import google from '../images/googleplay.png'
+import V_4 from './SVGs/V_4'
 const Top = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const Top = () => {
           <V_3 />
           <V_3 />
           <V2 />
-          {/* <V_4 /> */}
+          <V_4 />
           <CustomSvg />
         </div>
         <div className='content'>

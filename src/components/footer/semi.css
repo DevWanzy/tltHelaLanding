@@ -1,14 +1,14 @@
 .semi {
   padding: 5px;
-
   max-height: fit-content;
   position: relative;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
 }
+
 .one {
   display: flex;
   align-items: flex-start;
@@ -16,22 +16,55 @@
   flex-direction: column;
   color: var(--lightBlack);
 }
+
 .one h2 {
   font-size: 24px;
   margin-bottom: 2rem;
   font-family: genbold;
-
   line-height: 23px;
 }
 
 .one .scan {
   margin-bottom: 20px;
 }
+
 .one .play img {
   margin-top: 10px;
   width: 40%;
   margin-right: 5px;
 }
+
 .phone img {
   width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .semi {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .one {
+    align-items: center;
+  }
+
+  .one h2 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+
+  .one .scan {
+    margin-bottom: 1rem;
+  }
+
+  .one .play img {
+    margin-top: 10px;
+    width: 60%;
+    margin-right: 5px;
+  }
+
+  .phone img {
+    width: 90%;
+  }
 }

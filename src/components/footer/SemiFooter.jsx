@@ -4,6 +4,7 @@ import { BsQrCode } from 'react-icons/bs'
 import google from '../../images/googleplay.png'
 import appst from '../../images/appstore.png'
 import phone from '../../images/iPhone 14 Mockup, Clay 1.png'
+
 const SemiFooter = () => {
   return (
     <div className='semi'>
