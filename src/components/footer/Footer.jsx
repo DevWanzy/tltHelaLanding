@@ -2,7 +2,10 @@ import React from 'react'
 import './footer.css'
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa'
 import Splash from './splash'
-
+import google from '../../images/googleplay.png'
+import appst from '../../images/appstore.png'
+import arm from '../../images/Coat of Arms Kenya.png'
+import logo1 from '../../images/logo.png'
 const Footer = () => {
   const navigationItems = [
     {
@@ -28,10 +31,7 @@ const Footer = () => {
       <div className='upper-section'>
         <div className='firstPart'>
           <div className='footer-logo'>
-            <img
-              src='./Logos/Name logos/latest logo-07.png'
-              alt='Company Logo'
-            />
+            <img src={logo1} alt='Company Logo' />
           </div>
           <div className='footer-content'>
             {navigationItems.map((item, index) => (
@@ -48,8 +48,8 @@ const Footer = () => {
             ))}
           </div>
           <div className='footer-icons'>
-            <img src='/images/googleplay.png' alt='Icon 1' />
-            <img src='/images/appstore.png' alt='Icon 2' />
+            <img src={google} alt='Icon 1' />
+            <img src={appst} alt='Icon 2' />
           </div>
         </div>
         <div className='secondPart'>
@@ -88,7 +88,7 @@ const Footer = () => {
             <Splash />
           </div>
           <div className='footer-logoo'>
-            <img src='/images/Coat of Arms Kenya.png' alt='Company Logo' />
+            <img src={arm} alt='Company Logo' />
             <div className='lin'></div>
             <div className='te'>
               <p>

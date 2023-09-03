@@ -4,6 +4,8 @@ import './styles/part.css'
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa'
 import SemiFooter from '../components/footer/SemiFooter'
 import Footer from '../components/footer/Footer'
+import logo2 from '.././images/ajira.png'
+
 const Partners = () => {
   return (
     <div
@@ -19,7 +21,7 @@ const Partners = () => {
       <div className='bottom-section'>
         <div className='left'>
           <div className='logo'>
-            <img src='/images/ajira.png' alt='' />
+            <img src={logo2} alt='' />
           </div>
           <div className='iconss'>
             <i>

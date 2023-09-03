@@ -1,29 +1,32 @@
 import React from 'react'
 import './styles/partners.css'
-
+import knls from '../images/knls.png'
+import saf from '../images/saf.png'
+import ajira from '../images/ajira.png'
+import nys from '../images/nys.jfif'
 const iconsData = [
   {
     id: 1,
     name: 'Kenya Library',
-    imageSrc: '/images/knls.png',
+    imageSrc: knls,
     link: 'link2',
   },
   {
     id: 2,
     name: 'Safaricom',
-    imageSrc: '/images/saf.png',
+    imageSrc: saf,
     link: 'link3',
   },
   {
     id: 3,
     name: 'Ajira',
-    imageSrc: '/images/ajira.png',
+    imageSrc: ajira,
     link: 'link4',
   },
   {
     id: 4,
     name: 'NYS',
-    imageSrc: '/images/nys.jfif',
+    imageSrc: nys,
     link: 'link4',
   },
 ]

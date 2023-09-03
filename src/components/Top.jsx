@@ -4,7 +4,8 @@ import V2 from './SVGs/V2'
 
 import CustomSvg from './SVGs/CustomSvg'
 import './styles/top.css'
-
+import appst from '../images/appstore.png'
+import google from '../images/googleplay.png'
 const Top = () => {
   return (
     <div>
@@ -28,8 +29,8 @@ const Top = () => {
               opportunities to help them succeed.
             </p>
             <div className='icons'>
-              <img src='./images/appstore.png' alt='ApStore' />
-              <img src='./images/googleplay.png' alt='Google Play' />
+              <img src={appst} alt='ApStore' />
+              <img src={google} alt='Google Play' />
             </div>
           </div>
         </div>

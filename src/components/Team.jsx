@@ -1,5 +1,9 @@
 import React from 'react'
 import './styles/team.css'
+import ababuTeam from '../images/ababuTeam.png'
+import faithteam from '../images/channels4_profile 1.png'
+import danTeam from '../images/dunTeam.png'
+
 function Teambhnd({ name, description, image }) {
   return (
     <div className='card'>
@@ -20,20 +24,20 @@ const team = [
     name: 'Ababu Namwamba',
     description: 'CS for Youth Affairs, Sports and the Arts.',
 
-    image: '/images/ababuTeam.png',
+    image: ababuTeam,
   },
   {
     name: 'Faith Kipyegon',
     description: 'Director',
 
-    image: '/images/channels4_profile 1.png',
+    image: faithteam,
   },
 
   {
     name: 'Dan Emusgut',
     description: 'Software Developer',
 
-    image: '/images/dunTeam.png',
+    image: danTeam,
   },
 ]
 

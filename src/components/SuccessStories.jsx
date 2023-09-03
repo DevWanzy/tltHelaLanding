@@ -1,5 +1,8 @@
 import './styles/stories.css'
-
+import story1 from '../images/channels4_profile 1.png'
+import story2 from '../images/pexels-chythecreator-15177813 1.png'
+import story3 from '../images/qcpuohmx7mxwu8bxj2wl 1.png'
+import story4 from '../images/pexels-thirdman-6109392 1.png'
 const SuccessStoryCard = ({ imageSrc, name, profession, training, link }) => {
   return (
     <div className='success-story-card'>
@@ -18,7 +21,7 @@ const SuccessStories = () => {
   const stories = [
     {
       id: 1,
-      imageSrc: './images/channels4_profile 1.png',
+      imageSrc: story1,
       name: 'Eve Mungai',
       profession: 'Creative',
       training: 'Nyayo Stadium',
@@ -26,7 +29,7 @@ const SuccessStories = () => {
     },
     {
       id: 2,
-      imageSrc: './images/pexels-chythecreator-15177813 1.png',
+      imageSrc: story2,
       name: 'Dunstun Emusgut',
       profession: 'Architect',
       training: 'Kasarani Learning Center',
@@ -34,7 +37,7 @@ const SuccessStories = () => {
     },
     {
       id: 3,
-      imageSrc: './images/qcpuohmx7mxwu8bxj2wl 1.png',
+      imageSrc: story3,
       name: 'Faith Kipyegon',
       profession: 'Athlete',
       training: 'Kipyegon keino Stadium',
@@ -42,7 +45,7 @@ const SuccessStories = () => {
     },
     {
       id: 2,
-      imageSrc: './images/pexels-thirdman-6109392 1.png',
+      imageSrc: story4,
       name: 'Brian Okinyi',
       profession: 'Architect',
       training: 'Kasarani Learning Center',

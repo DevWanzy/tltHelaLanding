@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaChevronDown } from 'react-icons/fa'
 import Logo1 from '../../assets/dept-logo.png'
-import Logo2 from '../../assets/latest logo-06.png'
+import Logo2 from '../../images/logo.png'
 
 import './navbar.css'
 
@@ -24,7 +24,11 @@ const Navbar = () => {
         <img src={Logo2} alt='Logo 2' className='logo' />
       </div>
       <div className='nav-items'>
+        <Link to='/' className='link'>
+          <span>Home</span>
+        </Link>
         <NavItem to='#talents' text='For Talents' />
+
         <NavItem to='#events' text='Events' />
         <NavItem to='#learning' text='Learning Centers' />
         <Link to='/about' className='link'>
