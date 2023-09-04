@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import './styles/home.css'
 
 import Goals from '../components/Goals'
@@ -10,10 +11,25 @@ import Top from '../components/Top'
 import SemiFooter from '../components/footer/SemiFooter'
 import Footer from '../components/footer/Footer'
 import im from '../assets/main-bg.png'
+import backgrnd1 from '../assets/Ababu.png'
+import backgrnd2 from '../assets/faith.png'
 const Home = () => {
+  const [activeImage, setActiveImage] = useState(1)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveImage((prevActiveImage) => (prevActiveImage === 1 ? 2 : 1))
+    }, 5000)
+
+    return () => clearInterval(interval)
+  }, [])
+
+  const backgroundImage = activeImage === 1 ? backgrnd1 : backgrnd2
   return (
     <div className='home'>
-      <div className='bg'>
+      <div
+        className='bg'
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
         <div className='b'></div>
         <img src={im} alt='' />
         <Top />

@@ -8,7 +8,7 @@
   width: 100%;
 }
 .bg {
-  background: url('../../assets/Ababu.png') center left no-repeat;
+  /* background: url('../../assets/Ababu.png') center left no-repeat; */
   background-size: cover;
   max-width: 100%;
   display: flex;
@@ -18,6 +18,11 @@
   bottom: 0;
   left: 0;
   right: 0;
+  transition: background-image 0.5s ease-in-out;
+}
+.bg img {
+  width: 100%;
+  margin: auto 0;
 }
 .b {
   position: absolute;
