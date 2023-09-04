@@ -18,7 +18,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  transition: background-image 0.5s ease-in-out;
+  transition: background-image 0.5s ease-in;
 }
 .bg img {
   width: 100%;
