@@ -4,8 +4,8 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa'
 import Splash from './splash'
 import google from '../../images/googleplay.png'
 import appst from '../../images/appstore.png'
-import arm from '../../images/Coat of Arms Kenya.png'
-import logo1 from '../../images/logo.png'
+import arm from '../../assets/ministry-white.svg'
+import logo1 from '../../assets/name-white.png'
 const Footer = () => {
   const navigationItems = [
     {
@@ -89,14 +89,14 @@ const Footer = () => {
           </div>
           <div className='footer-logoo'>
             <img src={arm} alt='Company Logo' />
-            <div className='lin'></div>
+            {/* <div className='lin'></div>
             <div className='te'>
               <p>
                 {' '}
                 MINISTRY OF YOUTH AFFAIRS,
                 <br /> THE ARTS AND SPORTS
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

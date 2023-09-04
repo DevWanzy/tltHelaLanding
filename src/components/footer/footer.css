@@ -7,9 +7,11 @@
 
   max-height: fit-content;
   position: relative;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   max-width: 100vw;
-  width: 100%;
+  width: 100vw;
 }
 
 .upper-section {
@@ -33,20 +35,24 @@
   margin-bottom: 2rem;
   align-items: flex-start;
 }
+.footer-logo img {
+  margin-right: 20px;
+  width: 100px;
+}
 .footer-content {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 .footer-nav {
   margin-left: 20px;
-}
 
-.firstPart .footer-logo img {
-  margin-right: 20px;
-  width: 10%;
+  font-family: genbold;
+  font-size: 24px;
 }
-
+/* .footer-nav li a:hover {
+  color: var(--white;
+} */
 .firstPart .footer-icons {
   display: flex;
   flex-direction: column;
@@ -55,6 +61,7 @@
 
 .firstPart .footer-icons img {
   margin-bottom: 10px;
+  width: 150px;
 }
 
 .secondPart {
@@ -102,8 +109,11 @@
 }
 
 .footer-nav ul li a {
-  color: var(--w);
+  color: var(--lightWhite);
   text-decoration: none;
+}
+.footer-nav ul li a:hover {
+  color: var(--w);
 }
 
 .horizontal-line {
@@ -120,13 +130,7 @@
 .copyright {
   font-size: 14px;
 }
-.part2 {
-  display: flex;
 
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 3rem 0;
-}
 .part1 {
   display: flex;
   flex-direction: row;
@@ -137,23 +141,32 @@
   line-height: 3px;
   padding: 10px;
 }
+.part2 {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
 
 .footer-logoo {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  width: 30%;
-  font-family: genlight;
-  letter-spacing: 1px;
+  width: 30%; */
+  /* font-family: genlight;
+  letter-spacing: 1px; */
+  padding-right: 2rem;
   position: absolute;
   bottom: 3px;
   right: 20px;
 }
 .footer-logoo img {
-  width: 80px;
+  width: 100%;
+  height: 70px;
 }
-.footer-logoo .lin {
+/* .footer-logoo .lin {
   height: 30px;
   margin-left: 4px;
   width: 3px;
@@ -162,4 +175,4 @@
 .footer-logoo .te p {
   font-size: 0.5rem;
   margin-left: 5px;
-}
+} */

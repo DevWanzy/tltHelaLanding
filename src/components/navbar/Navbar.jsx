@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaChevronDown } from 'react-icons/fa'
-import Logo1 from '../../assets/dept-logo.png'
-import Logo2 from '../../images/logo.png'
+import Logo1 from '../../assets/ministry.png'
+import Logo2 from '../../assets/talanta-logo.png'
 
 import './navbar.css'
 
@@ -10,8 +10,7 @@ const NavItem = ({ to, text }) => (
   <Link to={to} className='link'>
     <span>{text}</span>
     <FaChevronDown
-      className='arrow'
-      style={{ fontSize: '12px', color: '#333' }}
+      style={{ fontSize: '10px', color: '#333', marginLeft: '10px' }}
     />
   </Link>
 )
