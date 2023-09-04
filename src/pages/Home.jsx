@@ -9,11 +9,13 @@ import Partners from '../components/Partners'
 import Top from '../components/Top'
 import SemiFooter from '../components/footer/SemiFooter'
 import Footer from '../components/footer/Footer'
+import im from '../assets/main-bg.png'
 const Home = () => {
   return (
     <div className='home'>
       <div className='bg'>
         <div className='b'></div>
+        <img src={im} alt='' />
         <Top />
       </div>{' '}
       <div className='main'>
