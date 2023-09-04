@@ -1,0 +1,43 @@
+.curved-header {
+  margin-top: calc(#{$header-height} * 0.25);
+  background-color: transparent !important;
+
+  .navbar-header {
+    border-radius: 40px;
+    max-width: calc(100% - #{$grid-gutter-width}) !important;
+    background-color: $header-bg;
+
+    @media (max-width: 576px) {
+      max-width: 100%;
+    }
+  }
+}
+
+.landing-main {
+  min-height: 100vh;
+  background-image: url("../../../images/backgrounds/cs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  .page-content {
+    background-image: url("../../../images/backgrounds/main-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #0003;
+  }
+}
+
+.bg-partners {
+  margin-top: 4rem;
+  background-image: url("../../../images/backgrounds/bg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+
+  .page-content {
+    background-color: #0003;
+    min-height: 30vh;
+  }
+}
