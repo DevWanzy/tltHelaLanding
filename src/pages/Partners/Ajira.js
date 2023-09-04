@@ -10,7 +10,7 @@ const Ajira = props => {
         <Container>
 
           <Row className="mt-4">
-            <Col md='3' className="text-center">
+            <Col lg='3' className="text-center">
               <img
                 src={partnerLogo}
                 height={70}
@@ -36,7 +36,7 @@ const Ajira = props => {
 
             </Col>
 
-            <Col md='9'>
+            <Col lg='9'>
 
               <h3 className="text-black fw-bolder">
                 About Ajira

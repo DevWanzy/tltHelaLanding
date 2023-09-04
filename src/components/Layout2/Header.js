@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from 'prop-types';
 import { withTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -13,6 +13,12 @@ import minLogo from "assets/images/ministry.png";
 
 
 const Header = props => {
+
+  useEffect(() => {
+    props.toggleLeftmenu(false);
+  }, []);
+
+
   return (
     <React.Fragment>
       <header id="page-topbar" className="curved-header">

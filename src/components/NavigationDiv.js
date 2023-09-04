@@ -22,7 +22,7 @@ const NavigationDiv = props => {
   return (
     <Fragment>
       <Navbar className="d-none d-lg-flex m-auto flex-grow-1">
-        <Nav className="ps-4 fs-5 d-flex align-items-center justify-content-center flex-grow-1">
+        <Nav className="ps-3 fs-5 d-flex align-items-center justify-content-center flex-grow-1">
 
           <li className="nav-item dropdown me-2">
             <Link
@@ -111,14 +111,14 @@ const NavigationDiv = props => {
             Shop
           </Link>
 
-          <a
-            href="/partners"
+          <Link
+            to="/partners"
             className={classNames('nav-link me-2', {
               active: window.location.pathname === '/'
             })}
           >
             Partners
-          </a>
+          </Link>
 
         </Nav>
 
@@ -126,7 +126,7 @@ const NavigationDiv = props => {
 
           <Link
             to="#"
-            className="btn me-2 rounded-pill text-black fs-5 py-1 w-sm my-auto"
+            className="nav-link me-2 my-auto"
           >
             Login
           </Link>
@@ -144,7 +144,5 @@ const NavigationDiv = props => {
     </Fragment >
   );
 };
-
-NavigationDiv.propTypes = {};
 
 export default NavigationDiv;

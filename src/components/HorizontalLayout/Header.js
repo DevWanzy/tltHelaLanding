@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from 'prop-types';
 
 import { connect } from "react-redux";
@@ -16,6 +16,12 @@ import minLogo from "assets/images/ministry.png";
 
 
 const Header = props => {
+
+  useEffect(() => {
+    props.toggleLeftmenu(false);
+  }, []);
+
+
   return (
     <React.Fragment>
       <header id="page-topbar">

@@ -45,7 +45,7 @@ $footer-color: var(--#{$prefix}footer-color);
 $topnav-bg: var(--#{$prefix}topnav-bg);
 
 $menu-item-color: var(--#{$prefix}menu-item-color);
-$menu-item-active-color: #556ee6;
+$menu-item-active-color: $menu-item-color;
 
 // Right Sidebar
 $rightbar-width: 280px;

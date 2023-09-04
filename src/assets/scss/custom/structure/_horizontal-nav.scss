@@ -4,13 +4,14 @@
 
 .topnav {
   background: $topnav-bg;
-  padding: 0 calc(#{$grid-gutter-width} * 0.5);
+  padding: 0 calc(#{$grid-gutter-width} * 0.5) 0.75rem;
   box-shadow: $box-shadow;
   margin-top: $header-height;
   position: fixed;
   left: 0;
   right: 0;
   z-index: 100;
+  border-radius: 0 0 10px 10px;
 
   .topnav-menu {
     margin: 0;
@@ -46,6 +47,9 @@
     }
 
     .nav-item {
+      width: 100%;
+      padding: 0rem;
+
       .nav-link.active {
         color: $menu-item-active-color;
       }
@@ -206,7 +210,8 @@
 
     .navbar-nav {
       .nav-link {
-        padding: 0.75rem 1.1rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
       }
     }
 

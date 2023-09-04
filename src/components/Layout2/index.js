@@ -16,12 +16,12 @@ import { useSelector, useDispatch } from "react-redux";
 //components
 import Header from "./Header";
 import Footer from "components/Footer";
+import Navbar from "components/Navbar";
 
 
 const Layout = (props) => {
 
   const dispatch = useDispatch();
-
   const {
     topbarTheme, layoutWidth, isPreloader, showRightSidebar
   } = useSelector(state => ({
@@ -30,6 +30,13 @@ const Layout = (props) => {
     isPreloader: state.Layout.isPreloader,
     showRightSidebar: state.Layout.showRightSidebar,
   }));
+
+  const [isMenuOpened, setIsMenuOpened] = useState(false);
+
+
+  const openMenu = () => {
+    setIsMenuOpened(!isMenuOpened);
+  };
 
   /*
   document title
@@ -96,10 +103,6 @@ const Layout = (props) => {
     }
   }, [dispatch, layoutWidth]);
 
-  const [isMenuOpened, setIsMenuOpened] = useState(false);
-  const openMenu = () => {
-    setIsMenuOpened(!isMenuOpened);
-  };
 
   return (
     <React.Fragment>
@@ -123,7 +126,11 @@ const Layout = (props) => {
           isMenuOpened={isMenuOpened}
           openLeftMenuCallBack={openMenu}
         />
-        <div className="main-content landing-main">{props.children}</div>
+        <div className="landing-main">
+          <Navbar menuOpen={isMenuOpened} />
+
+          <div className="main-content">{props.children}</div>
+        </div>
         <Footer />
       </div>
       {/* </div> */}
