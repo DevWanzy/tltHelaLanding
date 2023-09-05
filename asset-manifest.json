@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/tltHelaLanding/static/css/main.6d045e91.css",
-    "main.js": "/tltHelaLanding/static/js/main.6d8b69e0.js",
+    "main.css": "/tltHelaLanding/static/css/main.70febc3f.css",
+    "main.js": "/tltHelaLanding/static/js/main.723fbf42.js",
     "static/media/Ababu.png": "/tltHelaLanding/static/media/Ababu.fbab221882f00dc5cdee.png",
+    "static/media/faith.png": "/tltHelaLanding/static/media/faith.b957f29187c7b647ca0d.png",
     "static/media/aj.png": "/tltHelaLanding/static/media/aj.f0d9e59be69e68813639.png",
+    "static/media/ministry.png": "/tltHelaLanding/static/media/ministry.591e86511eaf9524bb84.png",
+    "static/media/ministry-white.svg": "/tltHelaLanding/static/media/ministry-white.f5dbb95c279cf895392c175158bbc5fa.svg",
     "static/media/iPhone 14 Mockup, Clay 1.png": "/tltHelaLanding/static/media/iPhone 14 Mockup, Clay 1.6835897448ec642bfb77.png",
     "static/media/ababuTeam.png": "/tltHelaLanding/static/media/ababuTeam.23b31ecc51b144bcb1d5.png",
-    "static/media/logo.png": "/tltHelaLanding/static/media/logo.f9ad14f21274983bdfe0.png",
+    "static/media/talanta-logo.png": "/tltHelaLanding/static/media/talanta-logo.70ee36299212efb32697.png",
     "static/media/dunTeam.png": "/tltHelaLanding/static/media/dunTeam.91f4db3ef704c932e8f4.png",
     "static/media/Frame 122.png": "/tltHelaLanding/static/media/Frame 122.541de1ad3b5603a75fbb.png",
+    "static/media/name-white.png": "/tltHelaLanding/static/media/name-white.55f9165067b3b4f63510.png",
+    "static/media/main-bg.png": "/tltHelaLanding/static/media/main-bg.d0a864f49197b48cf650.png",
     "static/media/pexels-chythecreator-15177813 1.png": "/tltHelaLanding/static/media/pexels-chythecreator-15177813 1.fff2fbbc977a6db58eb2.png",
     "static/media/channels4_profile 1.png": "/tltHelaLanding/static/media/channels4_profile 1.39de5384b89342e09345.png",
     "static/media/GeneralSans-Regular.woff": "/tltHelaLanding/static/media/GeneralSans-Regular.e4eab922aad4a9c4403e.woff",
@@ -18,11 +23,11 @@
     "static/media/pexels-thirdman-6109392 1.png": "/tltHelaLanding/static/media/pexels-thirdman-6109392 1.38b3ba67d179d66c2309.png",
     "static/media/nys.jfif": "/tltHelaLanding/static/media/nys.1ae7eaa3799c64843fe2.jfif",
     "index.html": "/tltHelaLanding/index.html",
-    "main.6d045e91.css.map": "/tltHelaLanding/static/css/main.6d045e91.css.map",
-    "main.6d8b69e0.js.map": "/tltHelaLanding/static/js/main.6d8b69e0.js.map"
+    "main.70febc3f.css.map": "/tltHelaLanding/static/css/main.70febc3f.css.map",
+    "main.723fbf42.js.map": "/tltHelaLanding/static/js/main.723fbf42.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d045e91.css",
-    "static/js/main.6d8b69e0.js"
+    "static/css/main.70febc3f.css",
+    "static/js/main.723fbf42.js"
   ]
 }
