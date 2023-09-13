@@ -13,7 +13,11 @@ const App = () => {
     <div className='app'>
       {/* Wrap your App component with Router */}
 
-      {location.pathname === '/' ? <NavbarHome /> : <Navbar />}
+      {location.pathname === '/' || '/tltHelaLanding' ? (
+        <NavbarHome />
+      ) : (
+        <Navbar />
+      )}
 
       <Routes>
         <Route path='/' element={<Home />} />
